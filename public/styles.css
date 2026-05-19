@@ -14,7 +14,7 @@
     --sienna:      #c0522a;
     --shadow:      rgba(0, 0, 0, 0.5);
     --card-w:      min(600px, 90vw);
-    --card-h:      min(450px, 58vw);
+    --card-h:      min(520px, 58vw);
 }
 
 /* ── Reset & Base ─────────────────────── */
@@ -269,7 +269,7 @@ body {
 
 .card-back .card-content {
     color: var(--cream);
-    font-size: clamp(0.5rem, 2.5vw, 0.85rem);
+    font-size: clamp(0.5rem, 2.5vw, 1rem);
     font-weight: 400;
     font-style: italic;
 }
