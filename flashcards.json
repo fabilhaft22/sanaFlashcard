@@ -116,107 +116,107 @@
     "antwort": "Content analysis involves systematically analysing communication or media. Researchers first define the aim of the study, create coding categories, pilot the coding system, code the data, tally frequencies, and assess reliability. Content analysis allows researchers to analyse large amounts of real-world data and combine qualitative and quantitative methods. However, coding decisions may be subjective and reduce objectivity."
   },
   {
-    "question": "What is a confounding variable in psychology?",
-    "answer": "A confounding variable is an unwanted factor that systematically affects the DV and changes results. It provides an alternative explanation for findings and reduces validity."
+    "frage": "What is a confounding variable in psychology?",
+    "antwort": "A confounding variable is an unwanted factor that systematically affects the DV and changes results. It provides an alternative explanation for findings and reduces validity."
   },
   {
-    "question": "What is an extraneous variable?",
-    "answer": "An extraneous variable is any variable other than the IV that could affect the DV. If not controlled, it can reduce the accuracy of conclusions."
+    "frage": "What is an extraneous variable?",
+    "antwort": "An extraneous variable is any variable other than the IV that could affect the DV. If not controlled, it can reduce the accuracy of conclusions."
   },
   {
-    "question": "What is an independent measures design?",
-    "answer": "An independent measures design uses different participants in each condition. It avoids order effects but may be affected by participant variables."
+    "frage": "What is an independent measures design?",
+    "antwort": "An independent measures design uses different participants in each condition. It avoids order effects but may be affected by participant variables."
   },
   {
-    "question": "What is a repeated measures design?",
-    "answer": "A repeated measures design uses the same participants in all conditions. It controls participant differences but can cause order effects like practice or fatigue."
+    "frage": "What is a repeated measures design?",
+    "antwort": "A repeated measures design uses the same participants in all conditions. It controls participant differences but can cause order effects like practice or fatigue."
   },
   {
-    "question": "What is internal validity?",
-    "answer": "Internal validity is the extent to which a study measures what it intends to measure. High control increases confidence that results are due to the IV."
+    "frage": "What is internal validity?",
+    "antwort": "Internal validity is the extent to which a study measures what it intends to measure. High control increases confidence that results are due to the IV."
   },
   {
-    "question": "What is external validity?",
-    "answer": "External validity is how well results generalise to real life or other populations. Artificial tasks or samples can reduce it."
+    "frage": "What is external validity?",
+    "antwort": "External validity is how well results generalise to real life or other populations. Artificial tasks or samples can reduce it."
   },
   {
-    "question": "What is objectivity in science?",
-    "answer": "Objectivity means results are not influenced by personal bias. It improves accuracy and reliability of psychological research."
+    "frage": "What is objectivity in science?",
+    "antwort": "Objectivity means results are not influenced by personal bias. It improves accuracy and reliability of psychological research."
   },
   {
-    "question": "What is replicability?",
-    "answer": "Replicability means a study can be repeated using the same methods and produce similar results. It increases confidence in findings."
+    "frage": "What is replicability?",
+    "antwort": "Replicability means a study can be repeated using the same methods and produce similar results. It increases confidence in findings."
   },
   {
-    "question": "What is falsifiability?",
-    "answer": "Falsifiability means a theory can be proven wrong through testing. If a theory cannot be falsified, it is not scientific."
+    "frage": "What is falsifiability?",
+    "antwort": "Falsifiability means a theory can be proven wrong through testing. If a theory cannot be falsified, it is not scientific."
   },
   {
-    "question": "What is empirical evidence?",
-    "answer": "Empirical evidence is information gained through direct observation or measurement. It forms the basis of scientific psychology."
+    "frage": "What is empirical evidence?",
+    "antwort": "Empirical evidence is information gained through direct observation or measurement. It forms the basis of scientific psychology."
   },
   {
-    "question": "What is nominal data?",
-    "answer": "Nominal data consists of categories without order. Examples include gender or types of behaviour."
+    "frage": "What is nominal data?",
+    "antwort": "Nominal data consists of categories without order. Examples include gender or types of behaviour."
   },
   {
-    "question": "What is ordinal data?",
-    "answer": "Ordinal data is ranked data where order matters but intervals are not equal. For example, rankings in a test."
+    "frage": "What is ordinal data?",
+    "antwort": "Ordinal data is ranked data where order matters but intervals are not equal. For example, rankings in a test."
   },
   {
-    "question": "What is interval data?",
-    "answer": "Interval data has equal intervals between values. This allows precise comparisons between scores."
+    "frage": "What is interval data?",
+    "antwort": "Interval data has equal intervals between values. This allows precise comparisons between scores."
   },
   {
-    "question": "What is event sampling?",
-    "answer": "Event sampling records every occurrence of a specific behaviour. It is useful for infrequent behaviours."
+    "frage": "What is event sampling?",
+    "antwort": "Event sampling records every occurrence of a specific behaviour. It is useful for infrequent behaviours."
   },
   {
-    "question": "What is time sampling?",
-    "answer": "Time sampling records behaviour at fixed time intervals. It reduces workload but may miss events between intervals."
+    "frage": "What is time sampling?",
+    "antwort": "Time sampling records behaviour at fixed time intervals. It reduces workload but may miss events between intervals."
   },
   {
-    "question": "What is inter-rater reliability?",
-    "answer": "Inter-rater reliability is the level of agreement between observers. High agreement increases reliability of observations."
+    "frage": "What is inter-rater reliability?",
+    "antwort": "Inter-rater reliability is the level of agreement between observers. High agreement increases reliability of observations."
   },
   {
-    "question": "What is test-retest reliability?",
-    "answer": "Test-retest reliability measures consistency over time. A test is reliable if it produces similar results when repeated."
+    "frage": "What is test-retest reliability?",
+    "antwort": "Test-retest reliability measures consistency over time. A test is reliable if it produces similar results when repeated."
   },
   {
-    "question": "What is random sampling?",
-    "answer": "Random sampling gives every member of a population an equal chance of being selected. It reduces sampling bias."
+    "frage": "What is random sampling?",
+    "antwort": "Random sampling gives every member of a population an equal chance of being selected. It reduces sampling bias."
   },
   {
-    "question": "What is opportunity sampling?",
-    "answer": "Opportunity sampling involves selecting participants who are easily available. It is quick but may be biased."
+    "frage": "What is opportunity sampling?",
+    "antwort": "Opportunity sampling involves selecting participants who are easily available. It is quick but may be biased."
   },
   {
-    "question": "What is volunteer sampling?",
-    "answer": "Volunteer sampling occurs when participants self-select to take part. It is easy but may attract a specific type of person."
+    "frage": "What is volunteer sampling?",
+    "antwort": "Volunteer sampling occurs when participants self-select to take part. It is easy but may attract a specific type of person."
   },
   {
-    "question": "What is overt observation?",
-    "answer": "Overt observation means participants know they are being observed. It is ethical but may change behaviour."
+    "frage": "What is overt observation?",
+    "antwort": "Overt observation means participants know they are being observed. It is ethical but may change behaviour."
   },
   {
-    "question": "What is covert observation?",
-    "answer": "Covert observation is when participants are unaware they are being observed. It reduces demand characteristics but raises ethical issues."
+    "frage": "What is covert observation?",
+    "antwort": "Covert observation is when participants are unaware they are being observed. It reduces demand characteristics but raises ethical issues."
   },
   {
-    "question": "What is structured observation?",
-    "answer": "Structured observation uses predefined categories to record behaviour. It improves reliability and makes data easier to analyse."
+    "frage": "What is structured observation?",
+    "antwort": "Structured observation uses predefined categories to record behaviour. It improves reliability and makes data easier to analyse."
   },
   {
-    "question": "What is unstructured observation?",
-    "answer": "Unstructured observation records behaviour freely without categories. It provides rich detail but is less systematic."
+    "frage": "What is unstructured observation?",
+    "antwort": "Unstructured observation records behaviour freely without categories. It provides rich detail but is less systematic."
   },
   {
-    "question": "What is a Type I error?",
-    "answer": "A Type I error is a false positive, where the null hypothesis is wrongly rejected. It suggests an effect when none exists."
+    "frage": "What is a Type I error?",
+    "antwort": "A Type I error is a false positive, where the null hypothesis is wrongly rejected. It suggests an effect when none exists."
   },
   {
-    "question": "What is a Type II error?",
-    "answer": "A Type II error is a false negative, where the null hypothesis is wrongly accepted. It misses a real effect."
+    "frage": "What is a Type II error?",
+    "antwort": "A Type II error is a false negative, where the null hypothesis is wrongly accepted. It misses a real effect."
   }
 ]
