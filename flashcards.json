@@ -1,0 +1,222 @@
+[
+  {
+    "frage": "What is the Behaviourist Approach in psychology and how does it explain human behaviour?",
+    "antwort": "The Behaviourist Approach explains behaviour as something that is learned from the environment through experience. Behaviourists argue that psychology should only study observable and measurable behaviour rather than internal mental processes. Learning occurs mainly through classical conditioning and operant conditioning. Classical conditioning was demonstrated by Pavlov, who trained dogs to associate the sound of a bell with food, eventually causing salivation in response to the bell alone. Operant conditioning was developed by Skinner, who showed that behaviour is shaped through reinforcement and punishment. Positive reinforcement strengthens behaviour by rewarding it, negative reinforcement strengthens behaviour by removing something unpleasant, and punishment reduces behaviour. Behaviourists rely heavily on controlled laboratory experiments because these allow cause-and-effect conclusions and improve scientific credibility."
+  },
+  {
+    "frage": "What were Pavlov’s findings in classical conditioning and why are they important?",
+    "antwort": "Pavlov discovered classical conditioning while researching digestion in dogs. He noticed that dogs began salivating before food was presented whenever they heard the footsteps of the lab assistants. He then paired a neutral stimulus, such as a bell, with food repeatedly. Eventually the dogs learned to associate the bell with food and salivated when hearing the bell alone. In this process, food was the unconditioned stimulus, salivation to food was the unconditioned response, the bell became the conditioned stimulus, and salivation to the bell became the conditioned response. Pavlov’s findings were important because they demonstrated that behaviour could be learned through association and provided the foundation for the Behaviourist Approach."
+  },
+  {
+    "frage": "How did Skinner explain operant conditioning and reinforcement?",
+    "antwort": "Skinner explained operant conditioning as learning through consequences. He used the Skinner Box, where rats or pigeons learned behaviours such as pressing a lever or pecking a button. If a behaviour was followed by a reward, such as food, the behaviour became more likely to occur again. This is called positive reinforcement. If a behaviour removed something unpleasant, such as avoiding an electric shock, this was negative reinforcement. Punishment, on the other hand, reduced the likelihood of behaviour being repeated. Skinner believed that all complex behaviour could be explained through reinforcement histories and environmental consequences."
+  },
+  {
+    "frage": "What are the strengths and weaknesses of the Behaviourist Approach?",
+    "antwort": "One major strength of the Behaviourist Approach is its scientific credibility. Behaviourists use highly controlled laboratory experiments, which produce objective, replicable, and measurable data. This allows psychologists to establish cause-and-effect relationships. Another strength is that behaviourist principles have practical applications, such as behaviour therapy and token economies. However, the approach is criticised for being reductionist because it reduces behaviour to simple stimulus-response links and ignores internal mental processes such as emotion, cognition, and motivation. It is also criticised for environmental determinism because it suggests behaviour is entirely controlled by external factors and leaves little room for free will."
+  },
+  {
+    "frage": "What is Social Learning Theory and how does learning occur according to Bandura?",
+    "antwort": "Social Learning Theory argues that behaviour is learned through observation, imitation, and vicarious reinforcement. Albert Bandura believed that people learn by observing role models and the consequences of their actions. If a model is rewarded for behaviour, observers are more likely to imitate it. Bandura proposed four mediational processes that must occur before imitation happens: attention, retention, reproduction, and motivation. Attention means noticing the behaviour, retention means remembering it, reproduction means having the ability to copy it, and motivation refers to having a reason to imitate. Unlike strict behaviourism, Social Learning Theory recognises the importance of cognitive processes in learning."
+  },
+  {
+    "frage": "What happened in Bandura’s Bobo Doll study and what did it demonstrate?",
+    "antwort": "In Bandura’s Bobo Doll study, children observed adult models behaving either aggressively or non-aggressively toward an inflatable doll. Children who observed aggressive models were significantly more likely to imitate aggressive behaviour themselves, especially when the model was rewarded. The study demonstrated that aggression can be learned through observation and imitation rather than direct reinforcement. It also supported the concept of vicarious reinforcement, where individuals learn from observing the consequences of another person’s behaviour."
+  },
+  {
+    "frage": "What is the Cognitive Approach and how does it explain behaviour?",
+    "antwort": "The Cognitive Approach explains behaviour through internal mental processes such as memory, attention, perception, thinking, and schemas. Cognitive psychologists believe that the mind actively processes information in a similar way to a computer. They use theoretical models and computer analogies to explain how information is encoded, stored, and retrieved. The approach also includes cognitive neuroscience, which studies how brain structures and neural activity relate to mental processes. The Cognitive Approach focuses on understanding how people interpret and process information rather than simply responding to stimuli."
+  },
+  {
+    "frage": "What are schemas in the Cognitive Approach?",
+    "antwort": "Schemas are mental frameworks or packages of ideas that help individuals organise and interpret information. They develop through experience and influence how people perceive the world. Schemas allow people to process information quickly and efficiently, but they can also distort perception and lead to bias or stereotyping. For example, a person may have a schema about teachers that affects how they interpret the behaviour of all teachers they meet."
+  },
+  {
+    "frage": "What are the strengths and weaknesses of the Cognitive Approach?",
+    "antwort": "One major strength of the Cognitive Approach is its practical applications, especially cognitive behavioural therapy (CBT), which is widely used to treat depression and anxiety by changing irrational thought patterns. Another strength is that the approach uses scientific methods such as laboratory experiments and brain scans like fMRI and EEG. However, the approach is criticised for machine reductionism because it compares humans to computers and may oversimplify human thinking. Critics also argue that it neglects emotional and motivational factors that influence behaviour."
+  },
+  {
+    "frage": "What is the Biological Approach and how does it explain behaviour?",
+    "antwort": "The Biological Approach explains behaviour in terms of genetics, neurochemistry, hormones, brain structure, and evolution. Biological psychologists believe that behaviour has a physical basis and can often be inherited genetically. Twin studies are used to investigate genetic influences, while neurochemical explanations focus on neurotransmitters such as dopamine and serotonin. Evolutionary explanations suggest that behaviours which increased survival and reproduction were naturally selected over time. The approach uses scientific methods including brain scans, drug studies, and genetic research."
+  },
+  {
+    "frage": "What is the dopamine hypothesis of schizophrenia?",
+    "antwort": "The dopamine hypothesis suggests that schizophrenia is linked to excessive dopamine activity in certain areas of the brain. High dopamine levels are believed to contribute to symptoms such as hallucinations and delusions. Evidence for the hypothesis comes from antipsychotic drugs, which reduce dopamine activity and often reduce schizophrenic symptoms. Twin studies also support biological explanations because monozygotic twins show much higher concordance rates for schizophrenia than dizygotic twins."
+  },
+  {
+    "frage": "What are the strengths and weaknesses of the Biological Approach?",
+    "antwort": "A major strength of the Biological Approach is that it uses highly scientific methods such as EEG, fMRI scans, and controlled drug studies. These methods produce objective and reliable data. Biological explanations have also led to effective treatments such as antidepressants and antipsychotics. However, the approach is criticised for being biologically deterministic because it suggests behaviour is entirely controlled by biological factors and ignores free will. It is also reductionist because it reduces complex behaviour to genes and neurochemistry while neglecting environmental influences."
+  },
+  {
+    "frage": "What is the Psychodynamic Approach and what are Freud’s main ideas?",
+    "antwort": "The Psychodynamic Approach, developed by Freud, argues that behaviour is driven by unconscious conflicts and childhood experiences. Freud proposed that personality consists of the id, ego, and superego. The id seeks immediate pleasure, the superego represents morality, and the ego balances the demands of both. Freud also believed that defence mechanisms such as repression, denial, and displacement protect the conscious mind from anxiety. He proposed psychosexual stages of development, where unresolved conflicts could influence adult personality and behaviour."
+  },
+  {
+    "frage": "What are the strengths and weaknesses of the Psychodynamic Approach?",
+    "antwort": "One strength of the Psychodynamic Approach is that it introduced the idea that childhood experiences and unconscious processes influence behaviour. It also contributed to therapeutic techniques such as psychoanalysis. However, the approach is heavily criticised for lacking scientific credibility because concepts such as the id, ego, and superego cannot be objectively measured or tested. Many of Freud’s ideas are considered unfalsifiable and based on subjective interpretations."
+  },
+  {
+    "frage": "What is the Humanistic Approach and what does self-actualisation mean?",
+    "antwort": "The Humanistic Approach focuses on free will, personal growth, and self-actualisation. Humanistic psychologists believe humans are naturally motivated to achieve their full potential. Maslow proposed a hierarchy of needs, beginning with basic physiological needs and progressing toward self-actualisation at the top. Carl Rogers emphasised the importance of congruence, where a person’s self-image matches their ideal self. Rogers also developed client-centred therapy, which uses unconditional positive regard to help individuals grow psychologically."
+  },
+  {
+    "frage": "What are the strengths and weaknesses of the Humanistic Approach?",
+    "antwort": "A major strength of the Humanistic Approach is that it takes a holistic view of behaviour and considers the whole person rather than reducing behaviour to simple factors. It also had a significant influence on counselling and psychotherapy. However, the approach is criticised for cultural bias because ideas such as self-actualisation are based mainly on Western individualistic values and may not apply equally in collectivist cultures."
+  },
+  {
+    "frage": "What are neurones and what are their functions?",
+    "antwort": "Neurones are specialised nerve cells that transmit information throughout the nervous system. Sensory neurones carry information from receptors to the central nervous system, relay neurones connect neurones within the CNS, and motor neurones carry signals from the CNS to muscles and glands. A neurone consists of dendrites, which receive signals, a soma or cell body, an axon which carries impulses, a myelin sheath which speeds up transmission, nodes of Ranvier that allow impulses to jump along the axon, and axon terminals which release neurotransmitters."
+  },
+  {
+    "frage": "How does synaptic transmission work?",
+    "antwort": "Synaptic transmission occurs when an electrical impulse reaches the presynaptic neurone and triggers vesicles to release neurotransmitters into the synaptic cleft. The neurotransmitters cross the gap and bind to receptors on the postsynaptic neurone. Excitatory neurotransmitters increase the likelihood that the postsynaptic neurone will fire, while inhibitory neurotransmitters decrease the likelihood. After transmission, neurotransmitters are removed through reuptake or enzymatic breakdown. Synaptic transmission is essential for communication within the nervous system."
+  },
+  {
+    "frage": "What happens during the fight or flight response?",
+    "antwort": "The fight or flight response is an automatic physiological reaction to perceived danger. The amygdala detects a threat and signals the hypothalamus, which activates the sympathetic nervous system. This stimulates the adrenal medulla to release adrenaline. Adrenaline increases heart rate, blood pressure, breathing rate, and blood flow to muscles, preparing the body for action. Once the threat has passed, the parasympathetic nervous system restores the body to its normal state. The response is considered evolutionarily adaptive because it improved survival in dangerous situations."
+  },
+  {
+    "frage": "What are endogenous pacemakers and exogenous zeitgebers?",
+    "antwort": "Endogenous pacemakers are internal biological clocks that regulate rhythms within the body. The main endogenous pacemaker is the suprachiasmatic nucleus (SCN), located in the hypothalamus, which controls circadian rhythms and influences melatonin production through the pineal gland. Exogenous zeitgebers are external environmental cues that influence biological rhythms. Light is the most important zeitgeber because it resets the SCN each day. Social cues such as meal times and social interaction can also influence rhythms."
+  },
+  {
+    "frage": "What did Siffre discover about circadian rhythms?",
+    "antwort": "Michel Siffre conducted cave isolation studies where he lived underground without natural light or clocks. He found that his body settled into a rhythm slightly longer than 24 hours, around 25 hours. This demonstrated that humans possess an internal biological clock controlled by endogenous pacemakers. However, it also showed that external cues such as light are needed to synchronise the body clock precisely with the 24-hour day."
+  },
+  {
+    "frage": "What are infradian rhythms and what research supports them?",
+    "antwort": "Infradian rhythms are biological rhythms that last longer than 24 hours. The menstrual cycle is an example, typically lasting around 28 days and controlled by hormones such as oestrogen and progesterone. McClintock’s research suggested that women living together may synchronise their menstrual cycles through pheromones. This may have evolutionary advantages, such as supporting shared childcare. However, research into menstrual synchronisation has been criticised for methodological issues and inconsistent replication."
+  },
+  {
+    "frage": "What are ultradian rhythms and what did Dement and Kleitman find?",
+    "antwort": "Ultradian rhythms are biological rhythms that occur more than once within 24 hours. Sleep stages are a major example. Dement and Kleitman used EEG recordings to study sleep and found that sleep follows repeating cycles lasting around 90 minutes. They discovered that REM sleep is strongly associated with dreaming because participants awakened during REM sleep were more likely to report vivid dreams. Their study provided objective scientific evidence about sleep patterns."
+  },
+  {
+    "frage": "What is brain plasticity and what factors affect recovery after brain injury?",
+    "antwort": "Brain plasticity refers to the brain’s ability to reorganise and form new neural connections as a result of experience or injury. Plasticity allows functions to move to undamaged areas of the brain after trauma. Recovery is affected by factors such as age, education, experience, environment, trauma severity, and gender. Research by Marques de la Plata found that older adults recover less effectively, suggesting reduced neural flexibility with age. Schneider and colleagues found that individuals with higher education levels recover better, possibly because of greater cognitive reserve."
+  },
+  {
+    "frage": "What did Sperry’s split-brain research demonstrate about localisation of function?",
+    "antwort": "Sperry studied split-brain patients whose corpus callosum had been severed to reduce severe epilepsy. He found that the left and right hemispheres have specialised functions. Information presented to the right visual field is processed by the left hemisphere, which is dominant for language, allowing participants to name objects. Information presented to the left visual field is processed by the right hemisphere, meaning participants could not verbally identify objects but could point to them with their left hand. The research supported hemispheric lateralisation and localisation of function in the brain."
+  },
+  {
+    "frage": "What is informed consent and why is it important in psychological research?",
+    "antwort": "Informed consent means participants must be fully informed about the aims, procedures, risks, and rights involved in a study before agreeing to participate. Consent must be given voluntarily and participants should understand that they have the right to withdraw at any time. Informed consent is important because it protects participants’ autonomy and reduces the risk of harm. However, fully informing participants can sometimes create demand characteristics and reduce the validity of research findings."
+  },
+  {
+    "frage": "What is debriefing and why is it necessary?",
+    "antwort": "Debriefing occurs after a study and involves explaining the true purpose of the research to participants. Any deception used during the study must be revealed, participants must be allowed to withdraw their data if they wish, and support should be offered if the study caused distress. Debriefing is necessary because it protects participants from psychological harm and ensures ethical treatment."
+  },
+  {
+    "frage": "What are the stages of thematic analysis?",
+    "antwort": "Thematic analysis is a qualitative research method used to identify patterns or themes in data. The stages include familiarisation with the data, coding important sections, generating themes from the codes, reviewing the themes, defining and naming themes, and finally producing a report. Thematic analysis is flexible and useful for understanding complex behaviour, but it can be subjective because themes may reflect researcher bias."
+  },
+  {
+    "frage": "What are the stages of content analysis?",
+    "antwort": "Content analysis involves systematically analysing communication or media. Researchers first define the aim of the study, create coding categories, pilot the coding system, code the data, tally frequencies, and assess reliability. Content analysis allows researchers to analyse large amounts of real-world data and combine qualitative and quantitative methods. However, coding decisions may be subjective and reduce objectivity."
+  },
+  {
+    "question": "What is a confounding variable in psychology?",
+    "answer": "A confounding variable is an unwanted factor that systematically affects the DV and changes results. It provides an alternative explanation for findings and reduces validity."
+  },
+  {
+    "question": "What is an extraneous variable?",
+    "answer": "An extraneous variable is any variable other than the IV that could affect the DV. If not controlled, it can reduce the accuracy of conclusions."
+  },
+  {
+    "question": "What is an independent measures design?",
+    "answer": "An independent measures design uses different participants in each condition. It avoids order effects but may be affected by participant variables."
+  },
+  {
+    "question": "What is a repeated measures design?",
+    "answer": "A repeated measures design uses the same participants in all conditions. It controls participant differences but can cause order effects like practice or fatigue."
+  },
+  {
+    "question": "What is internal validity?",
+    "answer": "Internal validity is the extent to which a study measures what it intends to measure. High control increases confidence that results are due to the IV."
+  },
+  {
+    "question": "What is external validity?",
+    "answer": "External validity is how well results generalise to real life or other populations. Artificial tasks or samples can reduce it."
+  },
+  {
+    "question": "What is objectivity in science?",
+    "answer": "Objectivity means results are not influenced by personal bias. It improves accuracy and reliability of psychological research."
+  },
+  {
+    "question": "What is replicability?",
+    "answer": "Replicability means a study can be repeated using the same methods and produce similar results. It increases confidence in findings."
+  },
+  {
+    "question": "What is falsifiability?",
+    "answer": "Falsifiability means a theory can be proven wrong through testing. If a theory cannot be falsified, it is not scientific."
+  },
+  {
+    "question": "What is empirical evidence?",
+    "answer": "Empirical evidence is information gained through direct observation or measurement. It forms the basis of scientific psychology."
+  },
+  {
+    "question": "What is nominal data?",
+    "answer": "Nominal data consists of categories without order. Examples include gender or types of behaviour."
+  },
+  {
+    "question": "What is ordinal data?",
+    "answer": "Ordinal data is ranked data where order matters but intervals are not equal. For example, rankings in a test."
+  },
+  {
+    "question": "What is interval data?",
+    "answer": "Interval data has equal intervals between values. This allows precise comparisons between scores."
+  },
+  {
+    "question": "What is event sampling?",
+    "answer": "Event sampling records every occurrence of a specific behaviour. It is useful for infrequent behaviours."
+  },
+  {
+    "question": "What is time sampling?",
+    "answer": "Time sampling records behaviour at fixed time intervals. It reduces workload but may miss events between intervals."
+  },
+  {
+    "question": "What is inter-rater reliability?",
+    "answer": "Inter-rater reliability is the level of agreement between observers. High agreement increases reliability of observations."
+  },
+  {
+    "question": "What is test-retest reliability?",
+    "answer": "Test-retest reliability measures consistency over time. A test is reliable if it produces similar results when repeated."
+  },
+  {
+    "question": "What is random sampling?",
+    "answer": "Random sampling gives every member of a population an equal chance of being selected. It reduces sampling bias."
+  },
+  {
+    "question": "What is opportunity sampling?",
+    "answer": "Opportunity sampling involves selecting participants who are easily available. It is quick but may be biased."
+  },
+  {
+    "question": "What is volunteer sampling?",
+    "answer": "Volunteer sampling occurs when participants self-select to take part. It is easy but may attract a specific type of person."
+  },
+  {
+    "question": "What is overt observation?",
+    "answer": "Overt observation means participants know they are being observed. It is ethical but may change behaviour."
+  },
+  {
+    "question": "What is covert observation?",
+    "answer": "Covert observation is when participants are unaware they are being observed. It reduces demand characteristics but raises ethical issues."
+  },
+  {
+    "question": "What is structured observation?",
+    "answer": "Structured observation uses predefined categories to record behaviour. It improves reliability and makes data easier to analyse."
+  },
+  {
+    "question": "What is unstructured observation?",
+    "answer": "Unstructured observation records behaviour freely without categories. It provides rich detail but is less systematic."
+  },
+  {
+    "question": "What is a Type I error?",
+    "answer": "A Type I error is a false positive, where the null hypothesis is wrongly rejected. It suggests an effect when none exists."
+  },
+  {
+    "question": "What is a Type II error?",
+    "answer": "A Type II error is a false negative, where the null hypothesis is wrongly accepted. It misses a real effect."
+  }
+]

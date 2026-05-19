@@ -1,0 +1,392 @@
+/* =========================================
+   Geschichte Flash Cards — Stylesheet
+   Aesthetic: Editorial / Refined Vintage
+   ========================================= */
+
+:root {
+    --bg:          #1c1a16;
+    --cream:       #f5f0e8;
+    --cream-dark:  #ede6d6;
+    --ink:         #1a1510;
+    --ink-light:   #3d3326;
+    --gold:        #c9a84c;
+    --gold-light:  #e0bf72;
+    --sienna:      #c0522a;
+    --shadow:      rgba(0, 0, 0, 0.5);
+    --card-w:      min(600px, 90vw);
+    --card-h:      min(450px, 58vw);
+}
+
+/* ── Reset & Base ─────────────────────── */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #1c1a16;
+    color: var(--cream);
+    font-family: 'Crimson Pro', Georgia, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* ── Background Texture ───────────────── */
+
+.bg-texture {
+    position: fixed;
+    inset: 0;
+    background-image:
+        radial-gradient(ellipse 70% 50% at 15% 10%, rgba(201,168,76,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse 60% 70% at 85% 85%, rgba(192,82,42,0.10) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.bg-lines {
+    position: fixed;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 39px,
+        rgba(255,255,255,0.025) 39px,
+        rgba(255,255,255,0.025) 40px
+    );
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ── Header ───────────────────────────── */
+
+#intro {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 3.5rem 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.header-eyebrow {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    animation: fadeDown 0.8s ease both;
+}
+
+#intro h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.1;
+    color: var(--cream);
+    letter-spacing: -0.01em;
+    animation: fadeDown 0.9s ease 0.1s both;
+}
+
+#intro h1 em {
+    font-style: italic;
+    color: var(--gold);
+}
+
+.header-line {
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin-top: 0.5rem;
+    animation: expandLine 1s ease 0.4s both;
+}
+
+/* ── Main / Flashcard Area ────────────── */
+
+#flashcards {
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem 3rem;
+    gap: 1.5rem;
+    animation: fadeUp 1s ease 0.3s both;
+}
+
+/* ── Card Wrapper & Hints ─────────────── */
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-hint {
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.7;
+    transition: opacity 0.4s ease;
+}
+
+/* ── The Card ─────────────────────────── */
+
+#flashcard {
+    position: relative;
+    width: var(--card-w);
+    height: var(--card-h);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#flashcard:focus-visible .card-face {
+    outline: 3px solid var(--gold);
+    outline-offset: 4px;
+}
+
+.card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 4px;
+}
+
+.card-face {
+    position: absolute;
+    inset: 0;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2.5rem 3rem;
+    overflow: hidden;
+    transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+/* Shared face styling */
+.card-face::before {
+    content: '';
+    position: absolute;
+    inset: 14px;
+    border: 1px solid rgba(184,146,42,0.25);
+    border-radius: 2px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.card-face::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Front: visible by default */
+.card-front {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+    background-color: #fdfaf3;
+    box-shadow:
+        0 3px 0 var(--gold),
+        0 16px 60px rgba(0,0,0,0.6),
+        0 4px 16px rgba(0,0,0,0.4),
+        inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+/* Back: hidden by default */
+.card-back {
+    opacity: 0;
+    transform: scale(0.96);
+    pointer-events: none;
+    background-color: #2a1f14;
+    box-shadow:
+        0 3px 0 var(--sienna),
+        0 16px 60px rgba(0,0,0,0.7),
+        0 4px 16px rgba(0,0,0,0.5);
+}
+
+/* Flipped: front hides, back shows */
+.card-inner.is-flipped .card-front {
+    opacity: 0;
+    transform: scale(0.96);
+    pointer-events: none;
+}
+
+.card-inner.is-flipped .card-back {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+
+.card-back::before {
+    border-color: rgba(184,146,42,0.2);
+}
+
+/* Card content text */
+.card-content {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1rem, 2.5vw, 1.35rem);
+    line-height: 1.55;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    max-width: 42ch;
+}
+
+.card-front .card-content {
+    color: var(--ink-light);
+    font-weight: 400;
+}
+
+.card-back .card-content {
+    color: var(--cream);
+    font-size: clamp(0.5rem, 2.5vw, 0.85rem);
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Card icon (? / ✓) */
+.card-icon {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+    opacity: 0.35;
+    line-height: 1;
+}
+
+.card-front .card-icon {
+    color: var(--gold);
+}
+
+.card-back .card-icon {
+    color: var(--gold-light);
+}
+
+/* ── Hover Effect ─────────────────────── */
+
+#flashcard:hover .card-face {
+    transform: translateY(-4px);
+}
+
+#flashcard:hover .card-inner.is-flipped .card-front {
+    transform: scale(0.96); /* keep front hidden, no lift */
+}
+
+#flashcard:active .card-face {
+    transform: translateY(-1px) scale(0.998);
+}
+
+#flashcard:active .card-inner.is-flipped .card-front {
+    transform: scale(0.96);
+}
+
+/* ── Card Counter ─────────────────────── */
+
+.card-counter {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--cream);
+    opacity: 0.3;
+}
+
+/* ── Footer ───────────────────────────── */
+
+.site-footer {
+    position: relative;
+    z-index: 1;
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--cream);
+    opacity: 0.2;
+}
+
+.footer-dot {
+    opacity: 0.5;
+}
+
+/* ── Animations ───────────────────────── */
+
+@keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-12px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes expandLine {
+    from { transform: scaleX(0); opacity: 0; }
+    to   { transform: scaleX(1); opacity: 1; }
+}
+
+/* New card pop-in */
+@keyframes cardPop {
+    0%   { transform: scale(0.96); opacity: 0; }
+    60%  { transform: scale(1.01); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+#flashcard.new-card .card-inner {
+    animation: cardPop 0.45s cubic-bezier(0.34, 1.4, 0.64, 1) both;
+}
+
+/* ── Responsive ───────────────────────── */
+
+@media (max-width: 480px) {
+    :root {
+        --card-h: 52vw;
+    }
+
+    #intro h1 {
+        font-size: 2rem;
+    }
+
+    .card-face {
+        padding: 1.8rem 1.5rem;
+    }
+
+    .card-face::before {
+        inset: 10px;
+    }
+}
