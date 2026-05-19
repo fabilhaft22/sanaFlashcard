@@ -14,7 +14,7 @@
     --sienna:      #c0522a;
     --shadow:      rgba(0, 0, 0, 0.5);
     --card-w:      min(600px, 90vw);
-    --card-h:      min(520px, 50vh);
+    --card-h:      min(1000px, 100vh);
 }
 
 /* ── Reset & Base ─────────────────────── */
